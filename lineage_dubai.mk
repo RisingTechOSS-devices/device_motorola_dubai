@@ -35,6 +35,9 @@ TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
+# rising Maintainer
+RISING_MAINTAINER=Rakhshan
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
