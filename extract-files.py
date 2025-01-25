@@ -51,7 +51,7 @@ module = ExtractUtilsModule(
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
     extract_fns=extract_fns,
-    add_firmware_proprietary_file=True,
+    add_firmware_proprietary_file=False,
 )
 
 if __name__ == '__main__':
